@@ -8,17 +8,18 @@ public class Main {
 
         /// Porblem 4
         /*StopWatch sw = new StopWatch();
+        MathTool a = new MathTool();
 
         sw.start();
         for (int i = 0; i < 1_000_000; i++) {
-            MathTool.factorialRecursive(20);
+            a.factorialRecursive(20);
         }
         sw.stop();
         System.out.println("Recursive time: " + sw.getElapsedTime() + " ms");
 
         sw.start();
         for (int i = 0; i < 1_000_000; i++) {
-            MathTool.factorialIterative(20);
+            a.factorialIterative(20);
         }
         sw.stop();
         System.out.println("Iterative time: " + sw.getElapsedTime() + " ms");*/
