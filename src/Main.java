@@ -7,7 +7,7 @@ public class Main {
         Random random = new Random();
 
         /// Porblem 4
-        StopWatch sw = new StopWatch();
+        /*StopWatch sw = new StopWatch();
 
         sw.start();
         for (int i = 0; i < 1_000_000; i++) {
@@ -21,7 +21,7 @@ public class Main {
             MathTool.factorialIterative(20);
         }
         sw.stop();
-        System.out.println("Iterative time: " + sw.getElapsedTime() + " ms");
+        System.out.println("Iterative time: " + sw.getElapsedTime() + " ms");*/
 
         /// Problem 3
         /*StepCounter userA = new StepCounter();
